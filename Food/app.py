@@ -45,4 +45,4 @@ def chat_with_gpt3_5_turbo(user_input):
         return str(e)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=False,host='0.0.0.0')
